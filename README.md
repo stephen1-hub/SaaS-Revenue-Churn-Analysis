@@ -187,4 +187,16 @@ Based on the analysis:
 ---
 
 # Project Structure
+saas-churn-analysis
+│
+├── data
+│ dataset.csv
+│
+├── notebooks
+│ churn_analysis.ipynb
+│
+├── visuals
+│ churn_charts.png
+│
+└── README.md
 
