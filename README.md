@@ -200,3 +200,20 @@ saas-churn-analysis
 │
 └── README.md
 
+## Limitations of the Analysis
+
+While this analysis provides useful insights into customer churn and profitability, several limitations should be considered.
+
+**1. Estimated Customer Acquisition Cost (CAC)**  
+The dataset did not include the actual marketing or sales costs associated with acquiring each customer. As a result, estimated CAC values were assigned to acquisition channels based on common SaaS industry benchmarks. These estimates were used to approximate the CLV to CAC comparison.
+
+**2. Limited Customer Behavioral Data**  
+The dataset includes feature usage and support ticket information, but other behavioral indicators such as session frequency, product usage duration, and engagement over time were not available.
+
+**3. Time-Based Churn Dynamics**  
+The analysis focuses on churn over a four-year period but does not perform survival analysis or cohort-based retention analysis, which could provide deeper insights into how churn evolves over time.
+
+**4. Simplified Lifetime Value Calculation**  
+Customer Lifetime Value (CLV) was estimated using average monthly revenue and churn rates. In practice, more advanced models may incorporate discount rates, expansion revenue, and customer growth over time.
+
+Despite these limitations, the analysis still provides meaningful insights into customer retention patterns and profitability across different subscription plans.
